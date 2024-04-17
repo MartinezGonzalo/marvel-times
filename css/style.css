@@ -1,0 +1,283 @@
+
+
+
+h1,h2,h3,h4,h5,h6{
+ color:whitesmoke;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 40px;
+ font-weight:40%;
+ text-align: left;  
+}
+
+.logo{
+    font-size: 50px;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* stylecarousel */
+
+.col-sm-4 div {
+    padding: 50px;
+}
+
+.col-sm-4 div p {
+    text-align: justify;
+}
+
+.col-sm-4 div h3 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner .carousel-item:nth-child(1) {
+    background:#7D0A0A;
+}
+
+.carousel-inner .carousel-item:nth-child(2) {
+    background:#7D0A0A;
+}
+
+.carousel-inner .carousel-item:nth-child(3) {
+    background:#7D0A0A;
+}
+.carousel .carousel-control-next {
+    right: 20px;
+}
+
+ul{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: left;
+}
+
+/* personajes */
+
+.personajes{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+padding: 20px;
+}
+
+.personaje{
+width: 320px;
+flex-direction:column;
+}
+.personaje-logo:hover{
+    filter:opacity(50%);
+    transition: 0,5s;
+}
+
+.personajes article img {
+    width: 200px;
+    border-radius: 50%;
+    }
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
+    .bg-marvelred{
+    background-color:#7D0A0A; 
+}
+.tx-whitesmoke{
+    color: whitesmoke;
+}
+.font-size{
+    font-size: 50px;
+}
+.tx-center{
+    text-align: center;
+}
+.text-body-primary{
+    color:whitesmoke;
+}
+.navbar-icon{
+    color: whitesmoke;
+}
+/*.navbar-link:hover  {
+background-color:#0766AD;
+}*/
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 20px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+
+.datos{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.dato{
+    display: flex;
+    flex-direction: column;
+    width: 320px ;
+    background-color: white;
+}
+
+.dato img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.dato-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    }
+
+.dato-content h1 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.dato-content p {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 20px;
+    gap: 20px;
+
+}
+
+.imagenes{
+    width: 330px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagenes:hover{
+    filter:opacity(70%);
+    transition: 0,5s;
+}
+
+    
+.productos{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}    
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 320px ;
+    background-color: white;
+    margin: 30px;
+}
+
+.producto img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.producto a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    color: black;
+    font-size: 24px;
+
+}
+
+.comunidad h1 {
+    text-align: center;
+}
+.comunidad p {
+padding: 20px;
+}
+
+.contacto{
+    text-align: left;
+    padding: 12px;
+    color: whitesmoke;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    min-width: 100vh;
+    max-height: 100%;   
+}
+
+body{
+    background-color:#7D0A0A;
+}
+
+::selection {
+    background-color:whitesmoke;
+    color:#0766AD;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel-item > .col-12 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+main{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+height: 300px;
+width: 300px;  
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+}
+
+
+
